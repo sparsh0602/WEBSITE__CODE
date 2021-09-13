@@ -121,6 +121,36 @@ select{
   to {opacity: 2}
 }
 
+.bluebag {
+  position: absolute;
+  top: 30vw;
+  left: 27vw;
+  padding-top: 2vw;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(207, 230, 235);
+  text-shadow: 1px 1px rgba(243, 17, 187, 0.685);
+  font-weight: bolder;
+  font-size: 1.5vw;
+  border: 3px solid black;
+  border-radius: 3vw;
+  opacity: 0; 
+  background: linear-gradient(rgb(189, 32, 58),rgb(0, 153, 255));
+  height: 7vw;
+  width: 50vw; 
+  animation: opacityOn 2.2s normal forwards step-end;
+  animation-delay: 0.5s;
+}
+
+@keyframes opacityOn {
+  0% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
 
 
 
