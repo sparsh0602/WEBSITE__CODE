@@ -1,0 +1,129 @@
+* {
+    /* Deault CSS on all Elements */
+    box-sizing: border-box;
+    background-image: url("background.png");
+  }
+  body{
+      margin: 0;
+  }
+  header img{
+      margin-left: 17vw;
+      height: 30vw;
+  }
+  header{
+      background: black;
+  }
+
+
+  nav{
+    display: flex;
+    background: linear-gradient(rgb(53, 170, 53),rgb(164, 167, 38));
+    
+    padding: 1vw;
+}
+nav a{
+
+    color: white;
+    padding: 1vw;
+    text-align: left;
+    background: linear-gradient(rgb(53, 170, 53),rgb(164, 167, 38));
+    font-weight: bolder;
+}
+nav a:hover{
+    color: rgb(153, 21, 43);
+}
+
+
+.search_bar{
+  background: linear-gradient(rgb(53, 170, 53),rgb(164, 167, 38));
+}
+
+.note{
+  position: absolute;
+  color: white;
+  right: 1vw;
+  background: linear-gradient(rgb(53, 170, 53),rgb(164, 167, 38));
+  font-weight: bolder;
+  font-size: 1.35vw;
+  margin-top: 1vw;
+  text-shadow: 0.125vw 0.125vw red;
+  
+}
+
+.snake img{
+ 
+    float: left;
+    width: 45vw;
+    padding: 3vw;
+    
+
+}
+
+
+select{
+  margin-left: 30vw;
+  width: 20vw;
+  height: 3vw;
+  background: linear-gradient(rgb(194, 194, 226),rgb(89, 89, 119));
+  border: 2px solid black;
+}
+.search_bar option{
+  background: linear-gradient(rgb(194, 194, 226),rgb(89, 89, 119));
+}
+
+  * {box-sizing:border-box}
+
+
+.Containers {
+  display: none;
+}
+
+.Containers img{
+  height: 25vw;
+  width: 80vw;
+  margin-left: 9vw;
+  margin-top: 6vw;
+}
+
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 18px;
+  width: 20px;
+  margin-top: 0.025vw;
+  margin-bottom: 7vw;
+  background: rgb(0, 224, 224);
+  border-radius: 50%;
+  display: inline-block;
+  /* transition: background-color 0.5s ease; */
+}
+
+.enable, .dots:hover {
+  background-color: rgb(236, 22, 58);
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+
+
+
+
+
+
