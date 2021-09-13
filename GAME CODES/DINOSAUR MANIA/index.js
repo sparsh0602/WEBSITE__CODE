@@ -74,7 +74,7 @@ setInterval(() => {
 
 // to increase the speed of obstacle 
         setTimeout(() => {
-            anidur=parseFloat(window.getComputedStyle(obstacle,null).getPropertyValue('animation-duration'));  // float bec we don not want 4.8 to become 4
+            anidur=parseFloat(window.getComputedStyle(obstacle,null).getPropertyValue('animation-duration'));  // float bec decimals will also effect this by an extent
         newdur= anidur - 0.05;
         obstacle.style.animationDuration=newdur + 's'; // s for seconds
         
