@@ -153,4 +153,17 @@ button{
         text-shadow: 3px 3px 3px rgb(28, 247, 57);
         
     }
+  .win
+{
+    display: none;
+    position: absolute;
+    left: 25vw;
+    bottom: 80vw;
+   
+    font-size: 8vw;
+    padding: 8vw;
+    border: 3px solid black;
+    background: linear-gradient(green,yellow,green);
+    text-shadow: 0.25vw 0.25vw white;
+}
 }
