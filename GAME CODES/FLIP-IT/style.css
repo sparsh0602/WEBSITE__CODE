@@ -81,6 +81,8 @@ button{
     bottom: 0.5vw;
     cursor: pointer;
     font-weight: bolder;
+    text-shadow: 1px 1px white;
+    font-size: 2vw;
 }
 .win
 {
