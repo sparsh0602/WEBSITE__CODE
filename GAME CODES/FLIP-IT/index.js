@@ -1,3 +1,10 @@
+let size=window.innerWidth;
+if(size>650)
+{
+    let header=document.querySelector("header");
+    header.innerText="F L I P - I T";
+}
+
 const cards =document.querySelectorAll('.memory-card');
 
 
