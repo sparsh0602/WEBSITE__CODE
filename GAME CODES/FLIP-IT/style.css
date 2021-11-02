@@ -95,3 +95,62 @@ button{
     background: linear-gradient(green,yellow,green);
     text-shadow: 0.25vw 0.25vw white;
 }
+
+@media screen and (max-width: 650px)
+{
+    .memory-card{
+        width: 25%;
+        height: 33.33%;
+        border: 6px solid rgb(126, 37, 37);
+        position: relative;
+        cursor: pointer;
+        transform: scale(1);
+        /* TO GIVE 3-D EFFECT OF ROTATION */
+        transform-style:preserve-3d ;
+        transition: transform.5s;
+    }
+
+    .memory-game{
+        position: absolute;
+        height: 60vh;
+        width: 85vw;
+        display: flex;
+        border: 6px solid rgb(126, 37, 37);
+        flex-wrap: wrap;
+        margin-top: 20vw;
+        /* TO GIVE 3-D EFFECT */
+        perspective: 1000px; 
+        left: 8vw;
+        bottom: 25vw;
+    }
+
+    button{
+        text-align: center;
+        padding: 1.5vw;
+        background: linear-gradient(rgb(33, 230, 33),rgb(185, 216, 122));
+        border: 2px solid black;
+        position: absolute;
+        right:37vw ;
+        bottom: 12vw;
+        cursor: pointer;
+        font-weight: bolder;
+        text-shadow: 0.5px 0.5px white;
+        font-weight: 200px;
+    }
+
+    header{
+    
+        text-decoration: underline;
+        font-weight: 900;
+        color:	#0000CD;
+        position: relative;
+        text-align: center;
+        padding: 2vw;
+        font-size: 18VW;
+        text-decoration: underline;
+        text-shadow: 0.35VW 0.35VW 0.35vw whitesmoke;
+        font-style:italic;
+        text-shadow: 3px 3px 3px rgb(28, 247, 57);
+        
+    }
+}
