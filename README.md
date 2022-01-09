@@ -7,7 +7,10 @@
                                                                 2)TIC-TAC-TOE</br>
                                                                 3)DINOSAUR MANIA</r>
                                                                 4)FLIP-IT </br>
-* All games and website are purely coded using  HTML, CSS & Vanilla Javascript.                                                              
+* All games and website are purely coded using  HTML, CSS & Vanilla Javascript.</br>
+</br>
+
+<a href="https://sparsh0602.github.io/GAMEMANIA.github.io/">WEBSITE LINK</a>
                                                                 
                                                                 
                                                              
