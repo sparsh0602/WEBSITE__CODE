@@ -12,7 +12,7 @@
 * All games and website are purely coded using  HTML, CSS & Vanilla Javascript.</br>
 </br>
 
-<a href="https://sparsh0602.github.io/GAMEMANIA.github.io/">WEBSITE LINK</a>
+<a href="https://sparsh0602.github.io/GAMEMANIA.github.io/"><h5>WEBSITE LINK</h5></a>
                                                                 
                                                                 
                                                              
