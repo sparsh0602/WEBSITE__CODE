@@ -1,4 +1,6 @@
-# WEBSITE__CODE
+# WEBSITE__CODE (GAME MANIA)
+
+//Game codes and website codes are seperated to make it more readable for users.
 
 ## OVERVIEW
 *The purpose of the project is to develop a responsive application that can host multiple games.</br>
